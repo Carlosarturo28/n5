@@ -1,7 +1,11 @@
 import { lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 
-const CharacterList = lazy(() => import("pokemon/CharacterList"));
+export const isClient = typeof window !== "undefined";
+
+const CharacterList = isClient
+  ? lazy(() => import("pokemon/CharacterList"))
+  : () => null;
 
 const PokemonList = () => {
   const { t } = useTranslation();

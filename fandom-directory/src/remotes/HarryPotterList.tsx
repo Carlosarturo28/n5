@@ -1,10 +1,15 @@
 import { lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 
-const CharacterList = lazy(() => import("harry_potter/CharacterList"));
+export const isClient = typeof window !== "undefined";
+
+const CharacterList = isClient
+  ? lazy(() => import("harry_potter/CharacterList"))
+  : () => null;
 
 const HarryPotterList = () => {
   const { t } = useTranslation();
+
   return (
     <Suspense fallback={<p>{t("loading")}</p>}>
       <CharacterList />
