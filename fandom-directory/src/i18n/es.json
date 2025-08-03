@@ -1,0 +1,41 @@
+{
+  "title": "Directorio de Fandoms",
+  "loadHarryPotter": "Cargar personajes de Harry Potter",
+  "loadPokemon": "Cargar personajes de Pokémon",
+  "loading": "cargando...",
+  "characterCard": {
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "unknown": "Desconocido",
+    "house": "Casa",
+    "birthdate": "Fecha de nacimiento",
+    "birthyear": "Año de nacimiento"
+  },
+  "searchbar": {
+    "placeholder": "Buscar personajes...",
+    "pokemonPlaceholder": "Buscar Pokémon..."
+  },
+  "pokemonTypes": {
+    "normal": "Normal",
+    "fire": "Fuego",
+    "water": "Agua",
+    "electric": "Eléctrico",
+    "grass": "Planta",
+    "ice": "Hielo",
+    "fighting": "Lucha",
+    "poison": "Veneno",
+    "ground": "Tierra",
+    "flying": "Volador",
+    "psychic": "Psíquico",
+    "bug": "Bicho",
+    "rock": "Roca",
+    "ghost": "Fantasma",
+    "dragon": "Dragón",
+    "dark": "Siniestro",
+    "steel": "Acero",
+    "fairy": "Hada",
+    "unknown": "Desconocido",
+    "shadow": "Sombra"
+  }
+}

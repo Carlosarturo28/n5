@@ -1,0 +1,41 @@
+{
+  "title": "Fandom Directory",
+  "loadHarryPotter": "Load Harry Potter Characters",
+  "loadPokemon": "Load Pokémon characters",
+  "loading": "loading...",
+  "characterCard": {
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "unknown": "Unknown",
+    "house": "House",
+    "birthdate": "Date of Birth",
+    "birthyear": "Year of Birth"
+  },
+  "searchbar": {
+    "placeholder": "Search characters...",
+    "pokemonPlaceholder": "Search Pokémon..."
+  },
+  "pokemonTypes": {
+    "normal": "Normal",
+    "fire": "Fire",
+    "water": "Water",
+    "electric": "Electric",
+    "grass": "Grass",
+    "ice": "Ice",
+    "fighting": "Fighting",
+    "poison": "Poison",
+    "ground": "Ground",
+    "flying": "Flying",
+    "psychic": "Psychic",
+    "bug": "Bug",
+    "rock": "Rock",
+    "ghost": "Ghost",
+    "dragon": "Dragon",
+    "dark": "Dark",
+    "steel": "Steel",
+    "fairy": "Fairy",
+    "unknown": "Unknown",
+    "shadow": "Shadow"
+  }
+}
